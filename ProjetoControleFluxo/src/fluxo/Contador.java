@@ -1,3 +1,4 @@
+package fluxo;
 import java.util.Scanner;
 
 public class Contador {

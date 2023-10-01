@@ -1,4 +1,4 @@
-package exerciciosFluxoRepeticao;
+package repeticao;
 import java.util.Scanner;
 
 public class BancoIfElse {

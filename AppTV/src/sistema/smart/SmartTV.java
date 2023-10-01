@@ -1,3 +1,4 @@
+package sistema.smart;
 public class SmartTV {
 
     boolean on = false;

@@ -1,4 +1,4 @@
-package noteApp;
+package noteapplication;
 public class Tarefa {
 
     private String descricao;

@@ -1,3 +1,4 @@
+package loja;
 public class Item {
 
     private String nome;

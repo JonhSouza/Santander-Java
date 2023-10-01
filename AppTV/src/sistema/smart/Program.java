@@ -1,3 +1,4 @@
+package sistema.smart;
 import java.util.Scanner;
 
 public class Program {

@@ -1,4 +1,4 @@
-package exerciciosFluxoRepeticao;
+package repeticao;
 public class BreakContinue {
     public static void main(String[] args) {
 

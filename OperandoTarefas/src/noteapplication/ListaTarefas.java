@@ -1,4 +1,5 @@
-package noteApp;
+package noteapplication;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -21,26 +22,24 @@ public class ListaTarefas {
         List<Tarefa> tarefasParaRemover = new ArrayList<>();
 
         if (!tarefaList.isEmpty()) {
-             for (Tarefa t : tarefaList) {
-            if (t.getDescricao().equalsIgnoreCase(descricao)) {
-                tarefasParaRemover.add(t);
+            for (Tarefa t : tarefaList) {
+                if (t.getDescricao().equalsIgnoreCase(descricao)) {
+                    tarefasParaRemover.add(t);
+                }
+
             }
-
+            tarefaList.removeAll(tarefasParaRemover);
+        } else {
+            System.out.println("Lista vazia!");
         }
-        tarefaList.removeAll(tarefasParaRemover);
-    } else {
-        System.out.println("Lista vazia!");
     }
-        }
-       
 
-    public int obterNumeroTotalTarefas(){
+    public int obterNumeroTotalTarefas() {
         return tarefaList.size();
     }
 
-    public void obterDescricoesTarefas(){
+    public void obterDescricoesTarefas() {
         System.out.println("Lista de tarefas atual: " + tarefaList);
     }
-
 
 }

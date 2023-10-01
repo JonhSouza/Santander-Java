@@ -1,3 +1,4 @@
+package loja;
 public class CarrinhoVirtual {
     public static void main(String[] args) throws Exception {
 
