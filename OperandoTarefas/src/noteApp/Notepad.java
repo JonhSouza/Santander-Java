@@ -1,3 +1,4 @@
+package noteApp;
 import java.util.Scanner;
 
 public class Notepad {

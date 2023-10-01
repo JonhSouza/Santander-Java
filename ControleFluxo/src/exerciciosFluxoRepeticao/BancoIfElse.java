@@ -1,3 +1,4 @@
+package exerciciosFluxoRepeticao;
 import java.util.Scanner;
 
 public class BancoIfElse {
